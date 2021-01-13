@@ -58,8 +58,6 @@ function unique (arr) {
     for (let j = i + 1; j < len; j++) {
       if (arr[i] === arr[j]) {
         j = ++i
-
-        console.log(i, '=====')
       }
     }
     newArr.push(arr[i])
