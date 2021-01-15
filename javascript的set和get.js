@@ -14,9 +14,9 @@ class MyClass {
 
 const test = new MyClass()
 test.prop = 123
-test.prop // output:'123'
+// test.prop // output:'123'
 
-let book = {
+const book = {
   _year: 2020,
   edition: 1
 }
@@ -30,12 +30,6 @@ Object.defineProperty(book, 'year', {
     this.edition++
   }
 })
-
-
-let book = {
-  _year: 2020,
-  edition: 1
-}
 
 Object.defineProperty(book, 'year', {
   get: function () {

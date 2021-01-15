@@ -13,10 +13,6 @@ function curriedAdd (x) {
 console.log(curriedAdd(1)(3))
 console.log(curriedAdd(1)(3) === 4)
 
-function add (x, y) {
-  return (x + y)
-}
-
 function currying (fn, ...args1) {
   return function (...args2) {
     return fn(...args1, ...args2)
