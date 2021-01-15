@@ -15,3 +15,6 @@ console.log('1:', getDepth(1)) // 1
 console.log('[]:', getDepth([])) // 1
 console.log('[1]:', getDepth([1])) // 2
 console.log('[[1], 2, 3]:', getDepth([[1], 2, 3, 4])) // 3
+
+
+
