@@ -2,7 +2,7 @@
 /**
  * 函数防抖
 */
-var timer;
+var timer
 function debounce (fn, delay, ...args) {
   clearTimeout(timer)
   timer = setTimeout(() => {
